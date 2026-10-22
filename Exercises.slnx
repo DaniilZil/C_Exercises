@@ -1,0 +1,23 @@
+<Solution>
+  <Configurations><Platform Name="x64" /></Configurations>
+  <Project Path="projects/exercise_1_01.vcxproj" />
+  <Project Path="projects/exercise_1_02.vcxproj" />
+  <Project Path="projects/exercise_1_03.vcxproj" />
+  <Project Path="projects/exercise_1_04.vcxproj" />
+  <Project Path="projects/exercise_1_05.vcxproj" />
+  <Project Path="projects/exercise_1_08.vcxproj" />
+  <Project Path="projects/exercise_1_09.vcxproj" />
+  <Project Path="projects/exercise_1_10.vcxproj" />
+  <Project Path="projects/exercise_1_11.vcxproj" />
+  <Project Path="projects/exercise_1_15.vcxproj" />
+  <Project Path="projects/exercise_1_17.vcxproj" />
+  <Project Path="projects/exercise_1_18.vcxproj" />
+  <Project Path="projects/exercise_1_19.vcxproj" />
+  <Project Path="projects/exercise_1_20.vcxproj" />
+  <Project Path="projects/exercise_1_21.vcxproj" />
+  <Project Path="projects/exercise_1_22.vcxproj" />
+  <Project Path="projects/exercise_1_23.vcxproj" />
+  <Project Path="projects/exercise_1_24.vcxproj" />
+  <Project Path="projects/exercise_2_01.vcxproj" />
+  <Project Path="projects/exercise_2_03.vcxproj" />
+</Solution>

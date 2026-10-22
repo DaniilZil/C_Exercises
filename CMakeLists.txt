@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.16)
+project(C_Exercises LANGUAGES C)
+
+set(CMAKE_C_STANDARD 17)
+set(CMAKE_C_STANDARD_REQUIRED ON)
+set(CMAKE_C_EXTENSIONS OFF)
+
+file(GLOB EXERCISES CONFIGURE_DEPENDS chapter_1/*.c chapter_2/*.c)
+foreach(SOURCE IN LISTS EXERCISES)
+    get_filename_component(NAME "${SOURCE}" NAME_WE)
+    add_executable(${NAME} "${SOURCE}")
+    if(MSVC)
+        target_compile_options(${NAME} PRIVATE /W4)
+    else()
+        target_compile_options(${NAME} PRIVATE -Wall -Wextra -Wpedantic)
+    endif()
+endforeach()
